@@ -1,0 +1,172 @@
+body,
+input,
+button {
+  font-family: 'Vazir Light' !important;
+  direction: rtl;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+body {
+  background-color: rgb(226, 226, 226) !important;
+}
+
+.my_bg {
+  background-color: white !important;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.pro_card-title {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.pro_card_des {
+  margin-right: 20px;
+  color: rgb(170, 170, 170);
+  font-size: 0.9rem;
+}
+.colors {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.num_pro {
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.input_pro {
+  border: none;
+  text-align: center;
+  display: flex;
+  width: 50%;
+  background-color: white !important;
+  font-weight: 900;
+}
+.price_form {
+  font-size: 1rem;
+  color: rgb(122, 122, 122);
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.form_lab {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+/* images */
+.box_img {
+  width: 441px;
+  height: 281px;
+  border-radius: 5px;
+  /* cursor: pointer; */
+}
+.thumb li {
+  padding: 2px;
+}
+.img-radius {
+  border-radius: 5px;
+}
+.fi-rr-angle-left,
+.fi-rr-angle-right {
+  position: absolute;
+  z-index: 99999;
+  background-color: white;
+  padding: 10px 5px 3px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.fi-rr-angle-left {
+  top: 210px;
+  left: 100px;
+}
+.fi-rr-angle-right {
+  top: 210px;
+  left: 490px;
+}
+.fi-rr-search,
+.fi-rr-bulb,
+.fi-rr-shopping-cart,
+.fi-rr-thumbs-up {
+  position: absolute;
+  z-index: 999;
+  background-color: white;
+  padding: 5px 5px 0;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  top: 105px;
+  transition: all 0.5s;
+}
+.fi-rr-search {
+  left: 100px;
+}
+.fi-rr-bulb {
+  left: 130px;
+}
+.fi-rr-shopping-cart {
+  left: 160px;
+}
+.fi-rr-thumbs-up {
+  left: 190px;
+}
+.fi-rr-search:hover,
+.fi-rr-bulb:hover,
+.fi-rr-shopping-cart:hover,
+.fi-rr-thumbs-up:hover {
+  background-color: rgb(214, 214, 214);
+}
+.des_title {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.my-text {
+  text-align: justify;
+  margin: 10px 30px;
+}
+
+.related_products {
+  height: 350px;
+}
+.swiper-container {
+  width: auto;
+  height: 280px;
+  overflow: auto;
+}
+.swiper-slide {
+  border-radius: 5px;
+}
+.card_price {
+  font-size: 1.2rem;
+}
+.card-title {
+  font-size: 14px;
+  font-weight: bolder;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.title-comment{
+  color: rgb(47, 144, 209);
+  border: 1px solid rgb(47, 144, 209);
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
